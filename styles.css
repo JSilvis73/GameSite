@@ -20,5 +20,9 @@ body {
 
 .hero-header {
     font-family: 'Times New Roman', Times, serif;
-    color: aqua;
+}
+
+.hero-section {
+    background-color: rgb(185, 184, 184);
+border-radius: 50px;
 }
