@@ -26,3 +26,13 @@ body {
     background-color: rgb(185, 184, 184);
     border-radius: 50px;
 }
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.card {
+
+}
