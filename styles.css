@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(201, 201, 201);
+    background-color: #8C8C8C;
 }
 
 /* Nav */
@@ -27,6 +27,18 @@ body {
     border-radius: 50px;
 }
 
+
+.intro-member{
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/* Cards */
 .cardholder {
     display: flex;
     flex-direction: row;
@@ -39,16 +51,11 @@ body {
 .card {
 display: flex;
 flex-direction: column;
-flex-wrap: nowrap;
+flex-wrap: wrap;
+align-items: center;
 
 }
 
-.intro-member{
-    background-color: silver;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    flex-shrink: 1;
+.card h5 {
+    
 }
