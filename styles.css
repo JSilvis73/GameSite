@@ -1,5 +1,6 @@
 body {
-    background-color: #8C8C8C;
+    background-image: url("./images/william-daigneault-ju3eqN0gl6Y-unsplash\ \(1\).jpg");
+    
 }
 
 /* Nav */
@@ -23,8 +24,8 @@ body {
 }
 
 .hero-section {
-    background-color: rgb(185, 184, 184);
-    border-radius: 50px;
+    background-color: #D6D6D6;
+    border-radius: 60px;
 }
 
 
@@ -36,6 +37,10 @@ body {
     align-items: center;
     flex-grow: 1;
     flex-shrink: 1;
+}
+
+.hero-picture {
+    
 }
 
 /* Cards */
