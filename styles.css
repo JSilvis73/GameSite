@@ -57,10 +57,17 @@ body {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-align-items: center;
-
+align-items: center;;
 }
 
-.card h5 {
-    
+.basic-card {
+    border: .5rem solid burlywood;
+}
+
+.silver-card {
+    border: .5rem solid silver;
+}
+
+.gold-card {
+    border: .5rem solid gold;
 }
